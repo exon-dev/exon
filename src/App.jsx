@@ -1,5 +1,6 @@
 import Landing from "./pages/Landing";
 import "./index.css";
+import { Analytics } from "@vercel/analytics/react";
 import bg from "./assets/bg.png";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 					<Landing />
 				</div>
 			</div>
+			<Analytics />
 		</>
 	);
 }
