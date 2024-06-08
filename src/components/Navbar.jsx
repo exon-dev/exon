@@ -34,6 +34,8 @@ const Navbar = () => {
 				transition={{
 					duration: 0.7,
 					delay: 0.64,
+					stiffness: 100,
+					type: "just",
 				}}
 				src={logo}
 				alt='Exon LOGO'
@@ -47,6 +49,8 @@ const Navbar = () => {
 					transition={{
 						duration: 0.7,
 						delay: 0.64,
+						stiffness: 100,
+						type: "just",
 					}}
 					className='flex items-center px-8 py-2 rounded-full bg-[#CDCDCD] border border-[#929292] md:text-[10px] md:gap-4 lg:gap-10 lg:text-[15px]'>
 					{menu.map((item, index) => (
@@ -92,6 +96,8 @@ const Navbar = () => {
 				transition={{
 					duration: 0.7,
 					delay: 0.64,
+					stiffness: 100,
+					type: "just",
 				}}
 				className='font-main font-semibold text-white bg-black rounded-full px-6 shadow-custom xxxs:hidden md:block md:py-2 md:text-[10px] lg:text-[15px] xl:py-4'>
 				Agency Profile
