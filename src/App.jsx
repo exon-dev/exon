@@ -1,9 +1,9 @@
 import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
 import bg from "./assets/bg.png";
-import Landing from "./pages/landing";
-import Mission from "./pages/mission";
-import Container from "./pages/container";
+import Landing from "./pages/Landing";
+import Mission from "./pages/Mission";
+import Container from "./pages/Container";
 import arrow from "./assets/arrow.png";
 
 function App() {
