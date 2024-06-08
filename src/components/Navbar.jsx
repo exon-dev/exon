@@ -27,7 +27,7 @@ const Navbar = () => {
 		}, 3000);
 	}, [direction, controls]);
 	return (
-		<div className='flex justify-between items-center xxxs:py-10 md:py-14 lg:py-16'>
+		<div className='flex justify-between items-center xxxs:py-10 md:py-14 lg:py-16 lg:gap-4'>
 			<motion.img
 				initial={{ x: -1000 }}
 				animate={{ x: 0 }}
@@ -48,7 +48,7 @@ const Navbar = () => {
 						duration: 0.7,
 						delay: 0.64,
 					}}
-					className='flex gap-10 items-center px-8 py-2 rounded-full bg-[#CDCDCD] border border-[#929292]'>
+					className='flex items-center px-8 py-2 rounded-full bg-[#CDCDCD] border border-[#929292] md:text-[10px] md:gap-4 lg:gap-10 lg:text-[15px]'>
 					{menu.map((item, index) => (
 						<Link
 							key={index}
@@ -93,7 +93,7 @@ const Navbar = () => {
 					duration: 0.7,
 					delay: 0.64,
 				}}
-				className='font-main font-semibold text-white bg-black rounded-full px-6 shadow-custom xxxs:hidden md:block py-4'>
+				className='font-main font-semibold text-white bg-black rounded-full px-6 shadow-custom xxxs:hidden md:block md:py-2 md:text-[10px] lg:text-[15px] xl:py-4'>
 				Agency Profile
 			</motion.button>
 		</div>

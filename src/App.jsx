@@ -1,7 +1,10 @@
-import Landing from "./pages/Landing";
 import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
 import bg from "./assets/bg.png";
+import Landing from "./pages/landing";
+import Mission from "./pages/mission";
+import Container from "./pages/container";
+import arrow from "./assets/arrow.png";
 
 function App() {
 	return (
@@ -15,10 +18,18 @@ function App() {
 					height: "100vh",
 					width: "100%",
 				}}>
-				<div className='xxxs:px-10 xxs:px-12 sm:px-14 md:px-32 lg:px-40 xl:px-72 3xl:px-96'>
+				<Container>
 					<Landing />
+				</Container>
+				<div className='flex justify-center items-center'>
+					<img
+						src={arrow}
+						alt='Arrow'
+						className='absolute bottom-0 animate-bounce w-10 h-10'
+					/>
 				</div>
 			</div>
+			<Mission />
 			<Analytics />
 		</>
 	);
