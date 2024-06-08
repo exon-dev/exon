@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/nav";
 import { motion } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
 import cursor_one from "../assets/cursor_one.png";
