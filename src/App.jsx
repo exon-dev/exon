@@ -1,10 +1,10 @@
 import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
 import bg from "./assets/bg.png";
-import Container from "./pages/Container";
 import Landing from "./pages/Landing";
 import Mission from "./pages/Mission";
 import arrow from "./assets/arrow.png";
+import Container from "./pages/Container";
 
 function App() {
 	return (
