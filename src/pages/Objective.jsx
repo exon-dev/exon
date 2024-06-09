@@ -6,7 +6,9 @@ import { motion } from "framer-motion";
 
 const Objective = () => {
 	return (
-		<div className='bg-light grid place-items-center justify-center w-full h-full'>
+		<div
+			id='about'
+			className='bg-light grid place-items-center justify-center w-full h-full'>
 			<motion.div
 				initial={{ scale: 0 }}
 				whileInView={{
