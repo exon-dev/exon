@@ -4,7 +4,7 @@ import React from "react";
 import mark from "../assets/mark.png";
 import { motion } from "framer-motion";
 
-const Mission = () => {
+const Objective = () => {
 	return (
 		<div className='bg-light grid place-items-center justify-center w-full h-full'>
 			<motion.div
@@ -37,4 +37,4 @@ const Mission = () => {
 	);
 };
 
-export default Mission;
+export default Objective;

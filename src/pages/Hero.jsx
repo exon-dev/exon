@@ -6,7 +6,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import cursor_one from "../assets/cursor_one.png";
 import cursor_two from "../assets/cursor_two.png";
 
-const Landing = () => {
+const Hero = () => {
 	const [state, triggerAnimation] = useState(false);
 	return (
 		<div className='bg-light h-full'>
@@ -88,4 +88,4 @@ const Landing = () => {
 	);
 };
 
-export default Landing;
+export default Hero;

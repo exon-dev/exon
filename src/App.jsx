@@ -1,10 +1,10 @@
 import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
 import bg from "./assets/bg.png";
-import Landing from "./pages/Landing";
-import Mission from "./pages/Mission";
+import Hero from "./pages/Hero";
+import Objective from "./pages/Objective";
 import arrow from "./assets/arrow.png";
-import Container from "./pages/Container";
+import Wrapper from "./pages/Wrapper";
 
 function App() {
 	return (
@@ -18,9 +18,9 @@ function App() {
 					height: "100vh",
 					width: "100%",
 				}}>
-				<Container>
-					<Landing />
-				</Container>
+				<Wrapper>
+					<Hero />
+				</Wrapper>
 				<div className='flex justify-center items-center'>
 					<img
 						src={arrow}
@@ -29,7 +29,7 @@ function App() {
 					/>
 				</div>
 			</div>
-			<Mission />
+			<Objective />
 			<Analytics />
 		</>
 	);
