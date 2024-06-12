@@ -4,11 +4,13 @@ import bg from "./assets/bg.png";
 import Hero from "./pages/Hero";
 import Objective from "./pages/Objective";
 import arrow from "./assets/arrow.png";
-import Wrapper from "./pages/Wrapper";
+import Navbar from "./components/Navbar";
+import Project from "./pages/Project";
 
 function App() {
 	return (
 		<>
+		<Navbar/>
 			<div
 				style={{
 					backgroundImage: `url(${bg})`,
@@ -18,9 +20,7 @@ function App() {
 					height: "100vh",
 					width: "100%",
 				}}>
-				<Wrapper>
-					<Hero />
-				</Wrapper>
+				<Hero />
 				<div className='flex justify-center items-center'>
 					<img
 						src={arrow}
@@ -30,6 +30,7 @@ function App() {
 				</div>
 			</div>
 			<Objective />
+			<Project />
 			<Analytics />
 		</>
 	);
