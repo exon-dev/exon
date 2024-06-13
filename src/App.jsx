@@ -6,6 +6,7 @@ import Objective from "./pages/Objective";
 import arrow from "./assets/arrow.png";
 import Navbar from "./components/Navbar";
 import PrimaryServices from "./pages/PrimaryServices";
+import ExtensionService from "./pages/ExtensionService";
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 			</div>
 			<Objective />
 			<PrimaryServices />
+			<ExtensionService/>
 			<Analytics />
 		</>
 	);
