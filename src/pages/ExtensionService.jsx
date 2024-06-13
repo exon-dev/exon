@@ -34,30 +34,30 @@ const ServiceExtension = () => {
        viewport={{ once: true }}
        className="flex flex-col 2xl:flex-row  items-center justify-end gap-5 p-5"
       >
-       <div className="flex flex-col justify-between h-auto 2xl:h-[280px] w-full 2xl:w-[380px] bg-[#262626] border-[2px] border-[#646464] shadow-2xl text-white rounded-2xl p-5">
+       <div className="flex flex-col justify-between h-auto 2xl:h-[290px]   bg-[#262626] border-[2px] border-[#646464] shadow-2xl text-white rounded-2xl p-4">
         <img src={graphicdesign} alt="" className="w-[60px] mt-5" />
         <div>
-         <h1 className="text-3xl mt-10 font-semibold">Graphic Design</h1>
+         <h1 className="text-2xl mt-10 font-semibold">Graphic Design</h1>
          <p className="mt-2">
           We excel in both development and graphic design, creating
           advertisements that capture attention and engagement.
          </p>
         </div>
        </div>
-       <div className="flex flex-col justify-between h-auto 2xl:h-[350px] w-full 2xl:w-[380px] bg-[#262626] border-[2px] border-[#646464] shadow-2xl text-white rounded-2xl p-5">
+       <div className="flex flex-col justify-between h-auto 2xl:h-[350px]   bg-[#262626] border-[2px] border-[#646464] shadow-2xl text-white rounded-2xl p-4">
         <img src={uxdesign} alt="" className="w-[60px] mt-5" />
         <div>
-         <h1 className="text-3xl mt-10 font-semibold">UI/UX Design</h1>
+         <h1 className="text-2xl mt-10 font-semibold">UI/UX Design</h1>
          <p className="mt-2">
           We also offer UI/UX design, crafting intuitive interfaces that enhance
           user experience and engagement.
          </p>
         </div>
        </div>
-       <div className="flex flex-col justify-between h-auto 2xl:h-[280px] w-full 2xl:w-[380px] bg-[#262626] border-[2px] border-[#646464] shadow-2xl text-white rounded-2xl p-5">
+       <div className="flex flex-col justify-between h-auto 2xl:h-[290px]   bg-[#262626] border-[2px] border-[#646464] shadow-2xl text-white rounded-2xl p-4">
         <img src={consultation} alt="" className="w-[60px] mt-5" />
         <div>
-         <h1 className="text-3xl mt-10 font-semibold">Consultation</h1>
+         <h1 className="text-2xl mt-10 font-semibold">Consultation</h1>
          <p className="mt-2">
           We also offer consultation services, providing expert advice to
           optimize your business’ digital products.
