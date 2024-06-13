@@ -29,7 +29,7 @@ const Navbar = () => {
 		}, 3000);
 	}, [direction, controls]);
 	return (
-		<div className="fixed top-0 w-full cm-bg-gradient">
+		<div className="fixed top-0 w-full cm-bg-gradient z-50">
 			<Wrapper>
 				<div className=' flex justify-between items-center xxxs:py-10 md:py-14 lg:py-16 lg:gap-4'>
 					<motion.img

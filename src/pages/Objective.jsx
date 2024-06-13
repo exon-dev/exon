@@ -27,12 +27,12 @@ const Objective = () => {
 					</h1>
 				</div>
 				<h1 className='font-bold text-center xs:text-lg sm:text-xl md:text-2xl md:px-10 lg:text-5xl lg:px-32 xl:px-42 2xl:px-64'>
-					Empower your business with our technology-driven solutions for seamless
+					Empower your business with our<br/> technology-driven solutions for seamless <br/>
 					task automation.
 				</h1>
 				<p className='text-center text-zinc-500 xxxs:text-[13px] xxxs:px-2 sm:text-sm md:text-md px-8 lg:text-lg lg:px-32 xl:text-xl xl:px-42 2xl:px-64'>
-					You'll always be a key team member during our development process. We
-					ensure regular updates on project progress, enabling timely adjustments
+					You'll always be a key team member during our development process.<br/> We
+					ensure regular updates on project progress, enabling timely<br/> adjustments
 				</p>
 			</motion.div>
 		</div>
