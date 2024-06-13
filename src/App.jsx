@@ -5,7 +5,7 @@ import Hero from "./pages/Hero";
 import Objective from "./pages/Objective";
 import arrow from "./assets/arrow.png";
 import Navbar from "./components/Navbar";
-import Project from "./pages/Project";
+import PrimaryServices from "./pages/PrimaryServices";
 
 function App() {
 	return (
@@ -30,7 +30,7 @@ function App() {
 				</div>
 			</div>
 			<Objective />
-			<Project />
+			<PrimaryServices />
 			<Analytics />
 		</>
 	);
