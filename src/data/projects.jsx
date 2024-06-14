@@ -25,7 +25,7 @@ const projects = [
 		desc:
 			"Multi-functional dashboard for managing events and itineraries organized by LGUs.",
 		link: "",
-		stack: ["React", "Express", "TailwindCSS"],
+		stack: ["React", "Express", "Tailwind"],
 	},
 	{
 		thumbnail: (
@@ -39,7 +39,7 @@ const projects = [
 		desc:
 			"GIS-Based Network Analysis in Finding Optimal Route on Accessing Tourist Places in Siargao Island, Philippines.",
 		link: "https://one-siargao.vercel.app",
-		stack: ["React", "Express", "TailwindCSS", "Node"],
+		stack: ["React", "Express", "Tailwind", "Node"],
 	},
 	{
 		thumbnail: (
@@ -53,7 +53,7 @@ const projects = [
 		desc:
 			"Web application that can generate questionnaires based on Bloom's Taxonomy using generative artificial intelligence.",
 		link: "https://questionooze.vercel.app",
-		stack: ["React", "Express", "TailwindCSS", "OpenAI", "Supabase"],
+		stack: ["React", "Express", "Tailwind", "OpenAI", "Supabase"],
 	},
 	{
 		thumbnail: (
@@ -67,7 +67,7 @@ const projects = [
 		desc:
 			"Solution designed to simplify and enhance the tracking of student participation in cleaning drives within educational institutions.",
 		link: "",
-		stack: ["React", "Laravel", "TailwindCSS"],
+		stack: ["React", "Laravel", "Tailwind"],
 	},
 ];
 

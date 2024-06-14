@@ -27,7 +27,7 @@ const ProjectCards = ({ project, idx }) => {
 					{project.title}
 				</h1>
 				<p>{project.desc}</p>
-				<div className='text-sm grid xxxs:grid-cols-3 lg:grid-cols-4 gap-x-2 items-center mt-4'>
+				<div className='text-sm grid xxxs:grid-cols-3 lg:grid-cols-4 gap-2 items-center mt-4'>
 					<a
 						href={project.link ?? null}
 						target='_blank'
@@ -37,8 +37,8 @@ const ProjectCards = ({ project, idx }) => {
 					{project.stack.map((tag, idx) => (
 						<div
 							key={idx}
-							className='flex items-center gap-2'>
-							<p>{tag}</p>
+							className='flex items-center justify-center gap-2 bg-zinc-900 border-2 border-zinc-500 text-white px-4 text-[10px] rounded-full'>
+							<p className='text-center'>{tag}</p>
 						</div>
 					))}
 				</div>
