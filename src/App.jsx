@@ -1,12 +1,14 @@
 import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
 import bg from "./assets/bg.png";
+import grid_bg from "./assets/grid_bg.png";
 import Hero from "./pages/Hero";
 import Objective from "./pages/Objective";
 import arrow from "./assets/arrow.png";
 import Navbar from "./components/Navbar";
 import PrimaryServices from "./pages/PrimaryServices";
 import ServiceExtension from "./pages/ExtensionService";
+import FeaturedWorks from "./pages/FeaturedWorks";
 
 function App() {
  return (
@@ -34,6 +36,18 @@ function App() {
    <Objective />
    <PrimaryServices />
    <ServiceExtension />
+   <div
+    style={{
+     backgroundImage: `url(${grid_bg})`,
+     backgroundSize: "cover",
+     backgroundPosition: "center",
+     backgroundRepeat: "repeat",
+     height: "auto",
+     width: "100%",
+    }}
+   >
+    <FeaturedWorks />
+   </div>
    <Analytics />
   </>
  );
