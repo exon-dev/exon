@@ -10,7 +10,9 @@ import remainingServices from "../data/remainingServices";
 
 const Project = () => {
 	return (
-		<div className='bg-black grid place-items-center justify-center w-full'>
+		<div
+			id='about'
+			className='bg-black grid place-items-center justify-center w-full'>
 			<div className='cm-bg-img'></div>
 			<div className='cm-bg-img2'></div>
 			<motion.div
