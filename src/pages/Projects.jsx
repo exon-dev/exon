@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { motion } from "framer-motion";
@@ -5,6 +6,7 @@ import mark from "../assets/mark.png";
 import Wrapper from "./Wrapper";
 import projects from "../data/projects";
 import ProjectCards from "../components/ProjectCards";
+import { TypeAnimation } from "react-type-animation";
 
 const Projects = () => {
 	return (
@@ -47,6 +49,46 @@ const Projects = () => {
 					);
 				})}
 			</Wrapper>
+			<TypeAnimation
+				sequence={[
+					"And",
+					300,
+					"And there",
+					400,
+					"And there is",
+					500,
+					"And there is more",
+					700,
+					"And there is more.",
+					1000,
+					"And there is more..",
+					1100,
+					"And there is more...",
+					1300,
+					"And there is more..",
+					100,
+					"And there is more.",
+					100,
+					"And there is more",
+					100,
+					"And there is",
+					100,
+					"And there",
+					100,
+					"And",
+					100,
+					"",
+					500,
+					() => {
+						console.log("");
+					},
+				]}
+				wrapper='h1'
+				cursor={true}
+				repeat={Infinity}
+				className='my-32 font-bold xxxs:text-xl md:text-3xl lg:text-5xl xl:text-6xl'
+				style={{ display: "inline-block" }}
+			/>
 		</div>
 	);
 };

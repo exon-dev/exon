@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import PrimaryServices from "./pages/PrimaryServices";
 import ServiceExtension from "./pages/ExtensionService";
 import Projects from "./pages/Projects";
+import Team from "./pages/Team";
 
 function App() {
 	return (
@@ -45,6 +46,7 @@ function App() {
 					width: "100%",
 				}}>
 				<Projects />
+				<Team />
 			</div>
 			<Analytics />
 		</>
