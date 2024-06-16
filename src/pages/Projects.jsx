@@ -38,8 +38,11 @@ const Projects = () => {
 					return (
 						<motion.div
 							initial={{ x: idx % 2 === 0 ? -100 : 100, opacity: 0 }}
-							animate={{ x: 0, opacity: 1 }}
-							transition={{ duration: 1, delay: idx * 1.5 }}
+							whileInView={{
+								x: 0,
+								opacity: 1,
+							}}
+							transition={{ duration: 1, delay: idx * 0.6 }}
 							key={idx}>
 							<ProjectCards
 								project={project}
