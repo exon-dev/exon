@@ -6,7 +6,7 @@ import mark from "../assets/mark.png";
 import Wrapper from "./Wrapper";
 import projects from "../data/projects";
 import ProjectCards from "../components/ProjectCards";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 
 const Projects = () => {
 	return (
@@ -49,7 +49,11 @@ const Projects = () => {
 					);
 				})}
 			</Wrapper>
-			<TypeAnimation
+			<h1 className='my-32 font-bold xxxs:text-xl md:text-3xl lg:text-5xl xl:text-6xl'>
+				And there's more...
+			</h1>
+
+			{/* <TypeAnimation
 				sequence={[
 					"And",
 					300,
@@ -88,7 +92,7 @@ const Projects = () => {
 				repeat={Infinity}
 				className='my-32 font-bold xxxs:text-xl md:text-3xl lg:text-5xl xl:text-6xl'
 				style={{ display: "inline-block" }}
-			/>
+			/> */}
 		</div>
 	);
 };
