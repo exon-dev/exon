@@ -9,4 +9,7 @@ export default defineConfig({
 			external: ["react-type-animation"],
 		},
 	},
+	optimizeDeps: {
+		include: ["react-type-animation"],
+	},
 });
