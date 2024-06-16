@@ -53,7 +53,7 @@ const Projects = () => {
 				})}
 			</Wrapper>
 			<h1 className='my-32 font-bold xxxs:text-xl md:text-3xl lg:text-5xl xl:text-6xl'>
-				And there's more...
+				And more...
 			</h1>
 
 			{/* <TypeAnimation
