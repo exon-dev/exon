@@ -5,6 +5,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import fra from "../assets/talents/fra.png";
 import trikk from "../assets/talents/trik.png";
 import carlo from "../assets/talents/carlo.png";
+import franc from "../assets/talents/franc.jpg";
 
 const members = [
 	{
@@ -39,6 +40,20 @@ const members = [
 		role: "Full-stack Developer",
 		github_link: "https://github.com/ImTrikk",
 		portfolio: "https://patrick-dionen.vercel.app/",
+	},
+	{
+		image: (
+			<img
+				src={franc}
+				alt='Franclloyd Dagdag'
+				draggable={false}
+				className='w-24 h-auto rounded-full'
+			/>
+		),
+		name: "Franclloyd Dagdag",
+		role: "Full-stack Developer",
+		github_link: "https://github.com/Kendaichi",
+		portfolio: "",
 	},
 	{
 		image: <FaRegUserCircle size={65} />,
